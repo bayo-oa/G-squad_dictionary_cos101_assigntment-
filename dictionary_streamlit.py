@@ -29,7 +29,7 @@ languages = {
         "hello": "Aneje",
         "thank you": "Ameyo",
         "water": "Ama",
-        "food": "Uje",
+        "food": "Uja",
         "mother": "Nne",
         "father": "Apa",
         "house": "Uno",
