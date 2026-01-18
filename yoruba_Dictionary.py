@@ -9,7 +9,7 @@ yoruba_Dictionary= {
     "Father":"baba",
     "sister":"ati mi",
     "brother":"boda",
-    "girl":"o bi rin"
+    "girl":"o bi rin",
     "boy":"o ku rin",
     "House":"ile",
     "Book":"iwe",
@@ -21,14 +21,14 @@ yoruba_Dictionary= {
     "Moon":"osupa",
     "Star":"i rawo",
     "Love":"ife",
-    "car":"o ko"
+    "car":"o ko",
     "clothe":"a sooke",
-    "phone":"e ro iba ni soro"
-    "clothe":""
+    "phone":"e ro iba ni soro",
+    "clothe":"a sooke",
     "God":"Olorun",
     "Friend":"ore",
     "Name":"oruko",
-    "Market":"oja"
+    "Market":"oja",
     "good morning":"E kaaro",
     "good afternoon":"E kaasan",
     "good evening":"E kurole",

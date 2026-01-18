@@ -7,9 +7,10 @@ english_to_hausa = {
 print ("G-squad language dictionary")
 print ("Hi There 👋")
 print ("Available English word you can translate to ")
-for i, word in enumerate(english_to_hausa.keys(), start=1):
+for i, word in enumerate(english_to_hausa.keys(), start=4):
     
-    print(f"{i}. {word}")
+   print(f"{i}. {word}")
+    
 
 print("press 'Q' to quit")
 
@@ -18,19 +19,19 @@ print("press 'Q' to quit")
     
 while True:
     word = input("What English word do you want to translate to Hausa ").lower().strip()
-
-    if word == "q":
+    
+    if word.lower() == "q":
         print("goodbye")
         break
+   
     
     if word in english_to_hausa:
         print (f"The hausa  translation of {word} is: '{english_to_hausa[word]}'")
+        
     else:
         print (f"sorry, '{word}' is not in the dictionary")
     
-
-
-
-#keep asking  until user enter the valid word
+   
+    
 
 
