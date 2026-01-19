@@ -1,8 +1,11 @@
 import streamlit as st
 
+#removed import dictionary as the data is defined below
+#added choice selection for languages
+
+choice = st.selectbox("language",("Hausa", "Yoruba", "Igbo", "Igala", "Idoma"))
 # Your dictionary
-languages = {
-    "English > Hausa": {
+hausa = {
         "house": "gida",
         "water": "ruwa",
         "food": "abinci",
@@ -23,9 +26,8 @@ languages = {
         "sleep": "bari",
         "name": "suna",
         "tree": "itace"
-    },
-
-    "English > Igala ": {
+    } #removed comma here
+igala = {
         "hello": "Aneje",
         "thank you": "Ameyo",
         "water": "Ama",
@@ -44,9 +46,8 @@ languages = {
         "friend": "Oyi",
         "name": "Izina",
         "market": "Uloja"
-    },
-
-    "English > Idoma": {
+    } #removed comma here
+idoma = {
         "hello": "abayole",
         "thank you": "unma",
         "water": "enkpo",
@@ -65,9 +66,8 @@ languages = {
         "god": "ocho",
         "name": "iye",
         "market": "ohi"
-    },
-
-    "English > Igbo": {
+    } #removed comma here
+igbo = {
         "hello": "Ndewo",
         "thank you": "Imela",
         "water": "Mmiri",
@@ -86,9 +86,8 @@ languages = {
         "friend": "Enyi",
         "name": "Aha",
         "market": "Ahia"
-    },
-
-    "English > Yoruba": {
+    } #removed comma here
+yoruba = {
         "hello": "bawo",
         "come": "ma bo",
         "go": "lo",
@@ -112,8 +111,12 @@ languages = {
         "good afternoon": "E kaasan",
         "good evening": "E kurole",
         "good night": "O daaro"
-    }
-}
+    } #removed comma here
+
+def search_dictionary(your_word, dictionary):
+    
+    return dictionary.get(your_word, "Word not found")
 
 
-
+if choice == "Hausa":
+    dictionary = hausa
