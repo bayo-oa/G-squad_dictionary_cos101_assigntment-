@@ -120,3 +120,11 @@ def search_dictionary(your_word, dictionary):
 
 if choice == "Hausa":
     dictionary = hausa
+elif choice == "Igala":
+    dictionary = igala
+elif choice == "Idoma":
+    dictionary = idoma    
+elif choice == "Igbo":
+    dictionary = igbo
+elif choice == "Yoruba":
+    dictionary = yoruba
