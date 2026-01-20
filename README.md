@@ -16,6 +16,6 @@ Instant Search: Quickly find translations for common words like "house", "water"
 User-Friendly Interface: Built with Streamlit for a clean, web-based experience.
 
 
-## 🛠️ Technologies Used
+## Technologies Used
 Python
 Streamlit (for the web interface)
