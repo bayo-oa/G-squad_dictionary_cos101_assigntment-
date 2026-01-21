@@ -128,3 +128,11 @@ elif choice == "Igbo":
     dictionary = igbo
 elif choice == "Yoruba":
     dictionary = yoruba
+
+
+
+
+
+
+else:
+    st.error("Your word is not in the dictionary")
