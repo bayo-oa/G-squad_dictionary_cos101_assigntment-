@@ -129,10 +129,10 @@ elif choice == "Igbo":
 elif choice == "Yoruba":
     dictionary = yoruba
 
+your_word = st.text_input("Enter an English word to translate").lower()
 
-
-
-
-
+if st.button("search"):
+    translation = search_dictionary(your_word, dictionary)
+    
 else:
     st.error("Your word is not in the dictionary")
